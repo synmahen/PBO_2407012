@@ -1,33 +1,14 @@
 package latihan_pbo.latihan2_2407012;
 
-class Cafe {
-    String nama;
-    String alamat;
-    String menu;
-
-    // Constructor
-    Cafe(String nama, String alamat, String menu) {
-        this.nama = nama;
-        this.alamat = alamat;
-        this.menu = menu;
-    }
-
-    // Method untuk menampilkan data
-    void tampilkanInfo() {
-        System.out.println("Nama Cafe  : " + nama);
-        System.out.println("Alamat     : " + alamat);
-        System.out.println("Menu       : " + menu);
-        System.out.println();
-    }
-}
-
 public class Main {
     public static void main(String[] args) {
+        Coba pp1 = new Coba ();
 
-        Cafe cafe1 = new Cafe("Halaman", "Indramayu", "Mie Goreng");
-        Cafe cafe2 = new Cafe("Ranum", "Indramayu Jabar", "Roti Bakar");
-
-        cafe1.tampilkanInfo();
-        cafe2.tampilkanInfo();
+        pp1.setPanjang( 9);
+        System.out.println("Panjangnya adalah : " + pp1.getPanjang());
+        pp1.setLebar(18);
+        pp1.cetakLuas();
+        System.out.println("Luasnya adalah : " + pp1.hitungLuas());
+        
     }
 }
