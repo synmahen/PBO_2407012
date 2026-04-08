@@ -48,3 +48,4 @@ public class Main {
 // nanti pas keluar di itu keluar lagi ada sisi ada panjang nya gitu jadi nginput di terminalnya
 
   
+
