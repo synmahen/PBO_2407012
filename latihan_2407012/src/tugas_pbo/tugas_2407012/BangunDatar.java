@@ -18,7 +18,7 @@ public class BangunDatar {
     }
 
     public double hitungLuas() {
-        return panjang * lebar;
+        return panjang * lebar * 2 ;
     }
 
 }

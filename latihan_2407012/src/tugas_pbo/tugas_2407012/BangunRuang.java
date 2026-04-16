@@ -7,6 +7,12 @@ public class BangunRuang extends BangunDatar {
         super(panjang, lebar);
         this.tinggi = tinggi;
     }
+
+      @Override
+    public double hitungLuas(){
+        return getPanjang() * getLebar() ;
+    }
+    
      public double hitungVolume() {
         return hitungLuas() * tinggi; 
     }
